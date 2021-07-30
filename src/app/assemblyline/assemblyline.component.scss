@@ -1,0 +1,44 @@
+.add-item{
+   font-family: Verdana;
+   font-weight: 600;
+   font-size: 3vh;
+}
+.stages{
+      display:flex;
+      justify-content: space-between;
+}
+.stage-item{
+      // height: 400px;
+      // width: 24%;
+      font-family: Verdana;
+      font-weight: 600;
+      font-size: 3vh;
+}
+
+.stage-item .btn-idea{
+   display: block;
+   margin-top: 3px;
+   cursor: pointer;
+   background-color: white;
+   border-radius: 3px;
+   font-family: Verdana;
+   font-size: 2vh;
+}
+
+.stage-item .btn-idea:hover{
+  background-color: yellow;
+}
+
+.item-button{
+      display: block;
+      margin-top: 3px;
+      cursor: pointer;
+      background-color: white;
+      border-radius: 3px;
+      font-family: Verdana;
+      font-size: 3vh;   
+}
+
+.item-button:hover{
+      background-color: yellow;   
+}
